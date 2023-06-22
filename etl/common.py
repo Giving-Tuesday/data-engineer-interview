@@ -7,6 +7,9 @@ import yaml
 
 
 class Task(ABC):
+    """
+    A task is one step in a workflow. This class provides a base for all ETL tasks.
+    """
 
     def __init__(self, init_conf=None):
         self.logger = self._prepare_logger()
