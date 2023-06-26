@@ -12,7 +12,7 @@ Here are the requirements:
 ```
 poetry run python -m etl.volunteering.aggregate_volunteering_data
 ```
-* You must implement the `entrypoint` function in `etl.volunteering.aggregate_volunteering_data`
+* You must implement the `entrypoint` function in `etl.volunteering.aggregate_data`
 * You must use the `Task` class in `etl.common` at least once
 * You cannot make changes to the `Task` class in `etl.common` 
 * You should include at least one test for your pipeline in `tests`
