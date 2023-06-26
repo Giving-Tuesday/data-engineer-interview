@@ -10,7 +10,7 @@ Here are the requirements:
 * The destination for your aggregated data should be `data_lake/curated/2023/05/aggregated_volunteering_data.csv`
 * The following command must be able to run the pipeline:
 ```
-poetry run python -m etl.volunteering.aggregate_volunteering_data
+poetry run python -m etl.volunteering.aggregate_data
 ```
 * You must implement the `entrypoint` function in `etl.volunteering.aggregate_data`
 * You must use the `Task` class in `etl.common` at least once
